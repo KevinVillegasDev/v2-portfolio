@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { Avatar } from "@mui/material";
+import Avatar from "@mui/material/Avatar";
 
 export default function MediaCard() {
     return (
@@ -32,7 +32,7 @@ export default function MediaCard() {
                         size="small"
                         href="https://github.com/KevinVillegasDev/CapstoneFrontend"
                     >
-                        Github
+                        <Avatar className="avatar" src="/git.png"></Avatar>
                     </Button>
                 </CardActions>
             </Card>
@@ -57,7 +57,7 @@ export default function MediaCard() {
                         size="small"
                         href="https://github.com/KevinVillegasDev/ValorantGuide"
                     >
-                        Github
+                        <Avatar className="avatar" src="/git.png"></Avatar>
                     </Button>
                 </CardActions>
             </Card>
@@ -79,8 +79,9 @@ export default function MediaCard() {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">Share</Button>
-                    <Button size="small">Learn More</Button>
+                    <Button size="small">
+                        <Avatar className="avatar" src="/git.png"></Avatar>
+                    </Button>
                 </CardActions>
             </Card>
         </div>

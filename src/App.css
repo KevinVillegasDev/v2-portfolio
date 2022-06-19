@@ -4,11 +4,27 @@
 .projects h2 {
     text-align: center;
 }
+.about h2 {
+    text-align: center;
+}
+.about p {
+    text-align: center;
+}
+.avatar {
+    margin-left: 135px;
+}
+nav {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
 
 .cards {
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 200px;
+    padding-left: 215px;
     
 }
