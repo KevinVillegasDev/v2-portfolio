@@ -5,6 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { Avatar } from "@mui/material";
 
 export default function MediaCard() {
     return (
@@ -21,16 +22,18 @@ export default function MediaCard() {
                         Recipe's Galore
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Full stack recipe application that lets you search a
-                        database of 600k recipes and get your own using a
-                        randomizer, a whats in your pantry feature that displays
-                        recipes you can make from ingredients in your pantry and
-                        much more
+                        Full stack recipe application that lets users interact
+                        with a database of 600k ingredients and recipes, helping
+                        them make recipe decisions.
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">Share</Button>
-                    <Button size="small">Learn More</Button>
+                    <Button
+                        size="small"
+                        href="https://github.com/KevinVillegasDev/CapstoneFrontend"
+                    >
+                        Github
+                    </Button>
                 </CardActions>
             </Card>
             <Card sx={{ maxWidth: 345 }}>
@@ -50,8 +53,12 @@ export default function MediaCard() {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">Share</Button>
-                    <Button size="small">Learn More</Button>
+                    <Button
+                        size="small"
+                        href="https://github.com/KevinVillegasDev/ValorantGuide"
+                    >
+                        Github
+                    </Button>
                 </CardActions>
             </Card>
             <Card sx={{ maxWidth: 345 }}>

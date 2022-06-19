@@ -2,7 +2,8 @@ import MediaCard from "./muiCard";
 
 const Projects = () => {
     return (
-        <div>
+        <div className="projects">
+            <h2>Projects</h2>
             <MediaCard />
         </div>
     );

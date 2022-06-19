@@ -1,14 +1,15 @@
 import "./App.css";
 import CssBaseline from "@mui/material/CssBaseline";
 import React from "react";
-import Projects from "./Projects";
+import Projects from "./components/Projects";
+import Home from "./components/Home";
 
 const App = () => {
     return (
         <React.Fragment>
             <CssBaseline />
             <div className="App">
-                <h1>App</h1>
+                <Home />
                 <Projects />
             </div>
         </React.Fragment>
