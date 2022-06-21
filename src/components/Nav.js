@@ -4,10 +4,18 @@ const Nav = () => {
     return (
         <div className="nav">
             <nav>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/" style={{ textDecoration: "none" }}>
+                    Home
+                </Link>
+                <Link to="/about" style={{ textDecoration: "none" }}>
+                    About/Skills
+                </Link>
+                <Link to="/projects" style={{ textDecoration: "none" }}>
+                    Projects
+                </Link>
+                <Link to="/contact" style={{ textDecoration: "none" }}>
+                    Contact
+                </Link>
             </nav>
         </div>
     );

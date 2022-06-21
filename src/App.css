@@ -1,14 +1,26 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/730421.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .home h1 {
     text-align: center;
 }
 .projects h2 {
     text-align: center;
 }
+.projects p {
+    text-align: center;
+    margin-bottom: 60px;
+}
 .about h2 {
     text-align: center;
 }
 .about p {
     text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .avatar {
     margin-left: 135px;
@@ -20,6 +32,11 @@ nav {
     font-size: 20px;
 }
 
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
 
 .cards {
     display: grid;
