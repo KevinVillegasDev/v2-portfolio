@@ -15,7 +15,7 @@ export default function MediaCard() {
                     component="img"
                     height="180"
                     image="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422.jpg"
-                    alt="green iguana"
+                    alt="cooking"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
@@ -32,7 +32,10 @@ export default function MediaCard() {
                         size="small"
                         href="https://github.com/KevinVillegasDev/CapstoneFrontend"
                     >
-                        <Avatar className="avatar" src="/git.png"></Avatar>
+                        <Avatar
+                            className="avatar"
+                            src={process.env.PUBLIC_URL + "/git.png"}
+                        ></Avatar>
                     </Button>
                 </CardActions>
             </Card>
@@ -41,7 +44,7 @@ export default function MediaCard() {
                     component="img"
                     height="180"
                     image={process.env.PUBLIC_URL + "/Val SS.png"}
-                    alt="green iguana"
+                    alt="val"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
@@ -57,7 +60,10 @@ export default function MediaCard() {
                         size="small"
                         href="https://github.com/KevinVillegasDev/ValorantGuide"
                     >
-                        <Avatar className="avatar" src="/git.png"></Avatar>
+                        <Avatar
+                            className="avatar"
+                            src={process.env.PUBLIC_URL + "/git.png"}
+                        ></Avatar>
                     </Button>
                 </CardActions>
             </Card>
@@ -80,7 +86,10 @@ export default function MediaCard() {
                 </CardContent>
                 <CardActions>
                     <Button size="small">
-                        <Avatar className="avatar" src="/git.png"></Avatar>
+                        <Avatar
+                            className="avatar"
+                            src={process.env.PUBLIC_URL + "/git.png"}
+                        ></Avatar>
                     </Button>
                 </CardActions>
             </Card>
