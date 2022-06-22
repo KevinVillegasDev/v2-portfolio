@@ -9,13 +9,13 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <img src="/email.png" />
+                    <img src={process.env.PUBLIC_URL + "/email.png"} />
                 </a>
                 <a href="https://www.linkedin.com/in/kevinvillegasdev/">
-                    <img src="/linked.png" />
+                    <img src={process.env.PUBLIC_URL + "/linked.png"} />
                 </a>
                 <a href="https://github.com/KevinVillegasDev">
-                    <img src="/github.png" />
+                    <img src={process.env.PUBLIC_URL + "/github.png"} />
                 </a>
             </div>
         </div>

@@ -40,7 +40,7 @@ export default function MediaCard() {
                 <CardMedia
                     component="img"
                     height="180"
-                    image="/Val SS.png"
+                    image={process.env.PUBLIC_URL + "/Val SS.png"}
                     alt="green iguana"
                 />
                 <CardContent>

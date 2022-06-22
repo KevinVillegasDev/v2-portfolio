@@ -23,11 +23,11 @@ const About = () => {
                     src={process.env.PUBLIC_URL + "/js.png"}
                     alt="javascript"
                 />
-                <img src="/jquery.png" />
-                <img src="/mongo.png" />
-                <img src="/python.png" />
-                <img src="/react.png" />
-                <img src="/mysql.png" />
+                <img src={process.env.PUBLIC_URL + "/jquery.png"} />
+                <img src={process.env.PUBLIC_URL + "/mongo.png"} />
+                <img src={process.env.PUBLIC_URL + "/python.png"} />
+                <img src={process.env.PUBLIC_URL + "/react.png"} />
+                <img src={process.env.PUBLIC_URL + "/mysql.png"} />
             </div>
         </div>
     );

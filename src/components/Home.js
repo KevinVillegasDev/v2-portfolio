@@ -6,7 +6,7 @@ const Home = () => {
                 Full Stack Developer from Los Angeles with a passion for
                 technology, DeFi and the outdoors.
             </p>
-            <img src="/selfie.JPG" />
+            <img src={process.env.PUBLIC_URL + "/selfie.JPG"} />
         </div>
     );
 };
