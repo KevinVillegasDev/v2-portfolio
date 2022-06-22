@@ -19,7 +19,10 @@ const About = () => {
                 Express, MongoDB, MySQL, Python, and Django.{" "}
             </p>
             <div className="icons">
-                <img src="/js.png" alt="javascript" />
+                <img
+                    src={process.env.PUBLIC_URL + "/js.png"}
+                    alt="javascript"
+                />
                 <img src="/jquery.png" />
                 <img src="/mongo.png" />
                 <img src="/python.png" />
