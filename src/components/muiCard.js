@@ -71,21 +71,25 @@ export default function MediaCard() {
                 <CardMedia
                     component="img"
                     height="180"
-                    image="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422.jpg"
+                    image={process.env.PUBLIC_URL + "/game.png"}
                     alt="green iguana"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        Lizard
+                        Naruto Street Fighter
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles,
-                        with over 6,000 species, ranging across all continents
-                        except Antarctica
+                        My spin on street fighter, using pygame and having you
+                        battle on classic naruto battlefields! You can head to
+                        the frontend link to download the zip file that holds
+                        the game
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">
+                    <Button
+                        size="small"
+                        href="https://kevinvillegasdev.github.io/Streetfighter-frontend/"
+                    >
                         <Avatar
                             className="avatar"
                             src={process.env.PUBLIC_URL + "/git.png"}
