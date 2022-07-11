@@ -5,12 +5,12 @@ const About = () => {
             <p>
                 Bilingual Army nurse turned software developer leveraging strong
                 communication, interpersonal, and analytical skills gained
-                through my background as a soldier and nurse. I use innovating
-                critical thinking to solve complex technical problems.
-                Passionate for working within a team environment and achieving
-                the best possible solution into each project. Very eager to join
-                a team of like minded individuals who value diversity and hard
-                work.
+                through my background as a soldier and nurse. Utilizing
+                innovative critical thinking skills to solve complex technical
+                problems. Passionate for working within a team environment and
+                achieving the best possible solution within each project. Very
+                eager to join a team of like minded individuals who value
+                diversity and hard work.
             </p>
             <br></br>
             <br></br>
