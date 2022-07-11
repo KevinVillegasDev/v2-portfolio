@@ -58,7 +58,7 @@ export default function MediaCard() {
                 <CardActions>
                     <Button
                         size="small"
-                        href="https://github.com/KevinVillegasDev/ValorantGuide"
+                        href="https://kevinvillegasdev.github.io/ValorantGuide/"
                     >
                         <Avatar
                             className="avatar"
