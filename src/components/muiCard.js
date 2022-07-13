@@ -30,7 +30,7 @@ export default function MediaCard() {
                 <CardActions>
                     <Button
                         size="small"
-                        href="https://github.com/KevinVillegasDev/CapstoneFrontend"
+                        href="https://kevinvillegasdev.github.io/CapstoneFrontend/"
                     >
                         <Avatar
                             className="avatar"
